@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaf&Co Website</title>
+    <link rel="stylesheet" href="/styles3.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fas fa-business-time"></i>Leaf&Co</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">
+                    Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/tech.html" class="navbar__links">
+                    Services</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/signup.html" class = "button">
+                        Sign Up
+                    </a>
+                   </li> 
+            </ul>
+        </div>
+    </nav>
+        <div class="heading">
+                <h1 id = "head">Thank You For Trusting In Leaf&Co</h1>
+                <h2 id = "subheading">Please Fill Out This Form!</h2>
+            </div>
+            <form>
+                <form action="process-survey.php" method="POST">  
+                <div id="content1">
+                    <label>Name</label><br><br>
+                    <input type = "name" name="name" placeholder="Enter Your First Name" class="box"> <br> <br>
+                    <label>Email</label><br><br>
+                    <input type = "name" name="name" placeholder="Enter Your Email" class="box"> <br> <br>
+                    <label>Phone Number</label><br><br>
+                    <input type = "name" name="name" placeholder="Enter Your Phone Number" class="box"> <br> <br>
+                    <label>Address</label><br><br>
+                    <input type = "name" name="name" placeholder="Enter Your Address" class="box"> <br> <br>
+                    <label>Which Service Do You Need?</label><br><br>
+                </div>
+                <div id="option1">
+                    <select>
+                        <option name="Select Your Service">Select Your Service</option>
+                        <option value="Window Washing">Window Washing</option>
+                        <option value="Landscaping">Landscaping</option>
+                        <option value="Landscaping">Power Washing</option>
+                        <option value="All">All</option>
+                        <option value="All But One">All But One</option>
+                    </select>
+                </div>
+                <label id="head11">                                     </label> <br><br>
+                <label id="head1">How Quickly Do You Need This Job Done? <br ><br>
+                    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbsp&nbspA.S.A.P. <br> <br>
+                    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbsp&nbspSoon <br > <br>
+                    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbsp&nbspWhenever <br> <br>
+                    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbsp&nbspIn A While <br> <br>
+                </label>
+                <div>
+                <label id="head2">Any Additional Comments or Suggestions?</label> <br> <br>
+                <textarea placeholder="Enter Your Comment Here..."></textarea> <br> <br>
+                <li class="heading__btn">
+                    <a href="/thankyou.html" class = "button2">Submit</a>
+                </li>
+               
+                </div>
+            </form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<img src="images/pic4.jpg" alt="pic" id="main__img" />
+
+
+
+<div class="services">
+    <h1>See what we do</h1>
+    <div class="services__container">
+        <div class="services__card">
+            <h2>     Know what we are all about</h2>
+            <p>Six High School Boys that Strive To Make A Difference</p>
+            <button>Get started</button>
+        </div>
+        <div class="services__card">
+            <h2>Are You Ready?</h2>
+            <p>Take the Leap</p>
+            <button>Get started</button>
+        </div>
+    </div>
+</div>
+
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About Us and You</h2>
+            </div>
+        </div>
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About Us and You</h2>
+                <a href="/">How it works</a>
+        </div>
+    </div>
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo"><i class="fas fa-business-time">Lead&Co</i></a>
+            </div>   
+            <p class="website__rights">NEXT 2020. All rights reserved</p>
+            <div class="social__icons">
+                <a href="/" class="social__icons--link" target = "_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="/" class="social__icons--link" target = "_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="/" class="social__icons--link" target = "_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="/" class="social__icons--link" target = "_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="/" class="social__icons--link" target = "_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
